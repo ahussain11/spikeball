@@ -1,0 +1,138 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.parallax-home {
+    background-image: url("../img/spikeball-net-grass.jpg");
+    height: 50%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.65;
+}
+
+.title span.border {
+    background-color: #FFF;
+    color: rgb(13, 13, 13);
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+.title {
+    position: absolute;
+    left: 0;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+/*header*/
+
+.nav-bar {
+    background-color: #FFF;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-left: 5%;
+}
+
+.list-item {
+    flex-basis: 20%;
+}
+
+.list-item a:link {
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+}
+
+.list-item a:visited {
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+
+}
+
+.list-item a:hover {
+    border-bottom: 1px solid rgb(77, 77, 77);
+}
+
+/*content*/
+
+.first-home-content-container {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.first-content {
+    height: 100%;
+    flex-basis: 45%;
+    margin: 10px 10px;
+    color: rgb(77, 77, 77);
+    text-align: center;
+}
+
+.first-home-content-img {
+    height: 100%;
+}
+
+.second-home-content-container {
+    margin-top: 40px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.second-content {
+    height: 100%;
+    flex-basis: 45%;
+    margin: 10px 10px;
+    color: rgb(77, 77, 77);
+    text-align: center;
+}
+
+.second-home-content-img {
+    height: 100%;
+}
+
+/*footer*/
+
+.footer {
+    margin-top: 50px;
+    clear: both;
+    background-color: rgb(77, 77, 77);
+    height: 90px;
+    width: 100%;
+}
+
+.footer-col {
+    height: 30px;
+    width: 32%;
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.social-icon {
+    color: #FFF;
+}
+
+.copyright {
+    color: #FFF;
+}
