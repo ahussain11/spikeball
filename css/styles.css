@@ -71,6 +71,11 @@ body {
     border-bottom: 1px solid rgb(77, 77, 77);
 }
 
+/*how do I leave the current page underlined?*/
+.list-item a:active {
+    border-bottom: 1px solid rgb(77, 77, 77);
+}
+
 /*content*/
 
 .first-home-content-container {
@@ -131,8 +136,21 @@ body {
 
 .social-icon {
     color: #FFF;
+    height: 30px;
 }
 
 .copyright {
     color: #FFF;
+}
+
+/*====== about ======*/
+
+.parallax {
+    background-image: url("../img/spikeball-net-grass.jpg");
+    height: 25%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.65;
 }
