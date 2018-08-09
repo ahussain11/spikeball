@@ -18,7 +18,7 @@ body {
     opacity: 0.65;
 }
 
-.title span.border {
+.title .border {
     background-color: #FFF;
     color: rgb(13, 13, 13);
     padding: 18px;
@@ -207,6 +207,7 @@ body {
 .apple-app {
     height: 75px;
 }
+/*^^could not figure out how to make these two level^^*/
 
 .parallax-extras {
     background-image: url("../img/spikeball-net-grass.jpg");
