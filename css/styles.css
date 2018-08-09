@@ -146,6 +146,14 @@ body {
     text-align: center;
 }
 
+.email-input {
+    border-radius: 3px;
+}
+
+.button {
+    border-radius: 3px;
+}
+
 .social-icon {
     color: #FFF;
     height: 30px;
