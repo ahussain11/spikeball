@@ -98,6 +98,11 @@ body {
     height: 90%;
 }
 
+.txt-div-row1 {
+    padding-left: 15px;
+    border-left: 1px solid rgb(77, 77, 77);
+}
+
 .second-home-content-container {
     margin-top: 20px;
     height: 300px;
@@ -111,6 +116,11 @@ body {
     margin: 10px 10px;
     color: rgb(77, 77, 77);
     text-align: center;
+}
+
+.img-div-row2 {
+    padding-left: 15px;
+    border-left: 1px solid rgb(77, 77, 77);
 }
 
 .second-home-content-img {
@@ -164,12 +174,50 @@ body {
 /*====== contact ======*/
 
 .contact-container {
+    width: 100%;
     height: 600px;
     display: flex;
     margin-top: 15px;
+    justify-content: center;
 }
 
 .contact-map {
     padding-left: 15px;
     border-left: 1px solid rgb(77, 77, 77);
+}
+
+/*====== extras ======*/
+
+.extras-row1 {
+    margin-top: 50px;
+}
+
+.google-app {
+    height: 100px;
+}
+
+.apple-app {
+    height: 75px;
+}
+
+.parallax-extras {
+    background-image: url("../img/spikeball-net-grass.jpg");
+    height: 15%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.65;
+}
+
+.shopping-div {
+    width: 100%;
+}
+
+.shopping-child {
+    text-align: center;
+}
+
+.shopping-link a {
+    text-decoration: none;
 }
